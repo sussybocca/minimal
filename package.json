@@ -1,4 +1,11 @@
 {
+  "name": "mega-gpt-clone",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vercel dev"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "react": "^18.2.0",
@@ -7,5 +14,8 @@
     "jszip": "^3.10.1",
     "@supabase/supabase-js": "^2.34.0",
     "event-source-polyfill": "^1.0.28"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
